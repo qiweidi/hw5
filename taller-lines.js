@@ -4,7 +4,9 @@ function setup() {
 
 function draw() {
   background(220);
-  for (var i = 10; i <= 390; i = i + 10) {
-    line(i, 10, i, i);
+  for (var i = 5; i <= 400; i = i + 5) {
+    line(i, 5, i, i+150);
+    
   }
 }
+
